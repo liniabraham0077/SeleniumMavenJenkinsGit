@@ -15,7 +15,7 @@ public class DemoTest {
 	@Test
 	public void mytest2() {
 		
-		System.out.println("This is test 2");
+		System.out.println("This is sample test");
 		
 	}
 
