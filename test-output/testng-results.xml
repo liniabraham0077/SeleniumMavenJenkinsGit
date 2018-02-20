@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80" started-at="2018-02-19T23:39:53Z" finished-at="2018-02-19T23:39:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80" started-at="2018-02-19T23:39:53Z" finished-at="2018-02-19T23:39:53Z">
+      <class name="com.planittesting.automation.SeleniumGitJenkinsProject.tests.DemoTest">
+        <test-method status="PASS" signature="mytest()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.DemoTest@1810399e]" name="mytest" duration-ms="34" started-at="2018-02-20T10:39:53Z" finished-at="2018-02-20T10:39:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest -->
+      </class> <!-- com.planittesting.automation.SeleniumGitJenkinsProject.tests.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
