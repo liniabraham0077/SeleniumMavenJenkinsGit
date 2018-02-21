@@ -11,24 +11,24 @@ public class LoginPage extends BasePage {
 	}
 
 	public LoginPage setUsername(String userName) {
-		
+
 		driver.findElement(By.id("email")).sendKeys(userName);
 		return this;
-		
+
 	}
-	
+
 	public LoginPage setPassword(String password) {
-		
+
 		driver.findElement(By.id("passwd")).sendKeys(password);
 		return this;
-		
+
 	}
-	
+
 	public MyAccountPage clickSubmitButton() {
 		driver.findElement(By.className("btn-default")).click();
 		return new MyAccountPage(driver);
 	}
-	
+
 	public Boolean getLoginAuthenticationError() {
 		return driver.findElement(By.className("alert-danger")).getText().contains("Authentication failed.");
 	}
