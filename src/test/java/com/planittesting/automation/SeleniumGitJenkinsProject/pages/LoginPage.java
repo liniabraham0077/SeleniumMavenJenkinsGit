@@ -28,4 +28,8 @@ public class LoginPage extends BasePage {
 		driver.findElement(By.className("btn-default")).click();
 		return new MyAccountPage(driver);
 	}
+	
+	public Boolean getLoginAuthenticationError() {
+		return driver.findElement(By.className("alert-danger")).getText().contains("Authentication failed.");
+	}
 }
