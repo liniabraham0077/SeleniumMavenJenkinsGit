@@ -2,20 +2,37 @@
 <testng-results skipped="0" failed="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39865" started-at="2018-02-21T02:39:40Z" finished-at="2018-02-21T02:40:20Z">
+  <suite name="Default suite" duration-ms="46217" started-at="2018-02-21T03:28:10Z" finished-at="2018-02-21T03:28:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39865" started-at="2018-02-21T02:39:40Z" finished-at="2018-02-21T02:40:20Z">
+    <test name="Default test" duration-ms="46217" started-at="2018-02-21T03:28:10Z" finished-at="2018-02-21T03:28:57Z">
       <class name="com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite">
-        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="testSetUp" is-config="true" duration-ms="207" started-at="2018-02-21T13:39:40Z" finished-at="2018-02-21T13:39:40Z">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="testSetUp" is-config="true" duration-ms="216" started-at="2018-02-21T14:28:10Z" finished-at="2018-02-21T14:28:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="setup" is-config="true" duration-ms="3072" started-at="2018-02-21T13:39:40Z" finished-at="2018-02-21T13:39:43Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="setup" is-config="true" duration-ms="3169" started-at="2018-02-21T14:28:11Z" finished-at="2018-02-21T14:28:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="testSteup" is-config="true" duration-ms="9437" started-at="2018-02-21T13:39:43Z" finished-at="2018-02-21T13:39:53Z">
+        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="testSteup" is-config="true" duration-ms="10006" started-at="2018-02-21T14:28:14Z" finished-at="2018-02-21T14:28:24Z">
           <params>
             <param index="0">
               <value>
@@ -26,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSteup -->
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="setData" duration-ms="6" started-at="2018-02-21T13:39:53Z" data-provider="getData" finished-at="2018-02-21T13:39:53Z">
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="setData" duration-ms="10" started-at="2018-02-21T14:28:24Z" data-provider="getData" finished-at="2018-02-21T14:28:24Z">
           <params>
             <param index="0">
               <value>
@@ -42,18 +59,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="captureStatus" is-config="true" duration-ms="8" started-at="2018-02-21T13:39:53Z" finished-at="2018-02-21T13:39:53Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="captureStatus" is-config="true" duration-ms="7" started-at="2018-02-21T14:28:24Z" finished-at="2018-02-21T14:28:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=setData status=SUCCESS method=LoginTestSuite.setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203] output={null}]]]>
+                <![CDATA[[TestResult name=setData status=SUCCESS method=LoginTestSuite.setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="testSteup" is-config="true" duration-ms="2118" started-at="2018-02-21T13:39:53Z" finished-at="2018-02-21T13:39:55Z">
+        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="testSteup" is-config="true" duration-ms="3866" started-at="2018-02-21T14:28:24Z" finished-at="2018-02-21T14:28:28Z">
           <params>
             <param index="0">
               <value>
@@ -64,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSteup -->
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="setData" duration-ms="1" started-at="2018-02-21T13:39:55Z" data-provider="getData" finished-at="2018-02-21T13:39:55Z">
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="setData" duration-ms="1" started-at="2018-02-21T14:28:28Z" data-provider="getData" finished-at="2018-02-21T14:28:28Z">
           <params>
             <param index="0">
               <value>
@@ -80,18 +97,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="captureStatus" is-config="true" duration-ms="0" started-at="2018-02-21T13:39:55Z" finished-at="2018-02-21T13:39:55Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-02-21T14:28:28Z" finished-at="2018-02-21T14:28:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=setData status=SUCCESS method=LoginTestSuite.setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203] output={null}]]]>
+                <![CDATA[[TestResult name=setData status=SUCCESS method=LoginTestSuite.setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="testSteup" is-config="true" duration-ms="2123" started-at="2018-02-21T13:39:55Z" finished-at="2018-02-21T13:39:57Z">
+        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="testSteup" is-config="true" duration-ms="2316" started-at="2018-02-21T14:28:28Z" finished-at="2018-02-21T14:28:30Z">
           <params>
             <param index="0">
               <value>
@@ -102,7 +119,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSteup -->
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="setData" duration-ms="1" started-at="2018-02-21T13:39:57Z" data-provider="getData" finished-at="2018-02-21T13:39:57Z">
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="setData" duration-ms="2" started-at="2018-02-21T14:28:30Z" data-provider="getData" finished-at="2018-02-21T14:28:30Z">
           <params>
             <param index="0">
               <value>
@@ -118,18 +135,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-02-21T13:39:57Z" finished-at="2018-02-21T13:39:57Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="captureStatus" is-config="true" duration-ms="0" started-at="2018-02-21T14:28:30Z" finished-at="2018-02-21T14:28:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=setData status=SUCCESS method=LoginTestSuite.setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203] output={null}]]]>
+                <![CDATA[[TestResult name=setData status=SUCCESS method=LoginTestSuite.setData(java.lang.String, java.lang.String)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="testSteup" is-config="true" duration-ms="2558" started-at="2018-02-21T13:39:57Z" finished-at="2018-02-21T13:40:00Z">
+        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="testSteup" is-config="true" duration-ms="5585" started-at="2018-02-21T14:28:30Z" finished-at="2018-02-21T14:28:36Z">
           <params>
             <param index="0">
               <value>
@@ -140,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSteup -->
-        <test-method status="FAIL" signature="signInFailure()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="signInFailure" duration-ms="12184" started-at="2018-02-21T13:40:00Z" finished-at="2018-02-21T13:40:12Z">
+        <test-method status="FAIL" signature="signInFailure()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="signInFailure" duration-ms="13074" started-at="2018-02-21T14:28:36Z" finished-at="2018-02-21T14:28:49Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"class name","selector":"alert-danger"}
@@ -150,9 +167,9 @@ Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'VICMELBLP138', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\labraham\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
-Session ID: 1095cc370f0da32353b3c4d7658a41d1
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\labraham\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true, webdriver.remote.sessionid: ecc4873557a99be653849a3c1ec...}
+Session ID: ecc4873557a99be653849a3c1ec087df
 *** Element info: {Using=class name, value=alert-danger}]]>
             </message>
             <full-stacktrace>
@@ -163,9 +180,9 @@ Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
 System info: host: 'VICMELBLP138', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\labraham\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
-Session ID: 1095cc370f0da32353b3c4d7658a41d1
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522940 (1a76f96f66e3ca..., userDataDir: C:\Users\labraham\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true, webdriver.remote.sessionid: ecc4873557a99be653849a3c1ec...}
+Session ID: ecc4873557a99be653849a3c1ec087df
 *** Element info: {Using=class name, value=alert-danger}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -177,14 +194,13 @@ Session ID: 1095cc370f0da32353b3c4d7658a41d1
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
 	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
 	at com.planittesting.automation.SeleniumGitJenkinsProject.pages.LoginPage.getLoginAuthenticationError(LoginPage.java:33)
-	at com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite.signInFailure(LoginTestSuite.java:34)
+	at com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite.signInFailure(LoginTestSuite.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -215,18 +231,18 @@ Session ID: 1095cc370f0da32353b3c4d7658a41d1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInFailure -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-02-21T13:40:12Z" finished-at="2018-02-21T13:40:12Z">
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="captureStatus" is-config="true" duration-ms="2" started-at="2018-02-21T14:28:49Z" finished-at="2018-02-21T14:28:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=signInFailure status=FAILURE method=LoginTestSuite.signInFailure()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203] output={null}]]]>
+                <![CDATA[[TestResult name=signInFailure status=FAILURE method=LoginTestSuite.signInFailure()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="testSteup" is-config="true" duration-ms="2927" started-at="2018-02-21T13:40:12Z" finished-at="2018-02-21T13:40:15Z">
+        <test-method status="PASS" signature="testSteup(java.lang.reflect.Method)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="testSteup" is-config="true" duration-ms="2790" started-at="2018-02-21T14:28:49Z" finished-at="2018-02-21T14:28:51Z">
           <params>
             <param index="0">
               <value>
@@ -237,26 +253,26 @@ Session ID: 1095cc370f0da32353b3c4d7658a41d1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSteup -->
-        <test-method status="PASS" signature="signInSuccessful()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="signInSuccessful" duration-ms="4076" started-at="2018-02-21T13:40:15Z" finished-at="2018-02-21T13:40:19Z">
+        <test-method status="PASS" signature="signInSuccessful()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="signInSuccessful" duration-ms="4583" started-at="2018-02-21T14:28:51Z" finished-at="2018-02-21T14:28:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInSuccessful -->
-        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="captureStatus" is-config="true" duration-ms="1" started-at="2018-02-21T13:40:19Z" finished-at="2018-02-21T13:40:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="tearDown" is-config="true" duration-ms="69" started-at="2018-02-21T14:28:56Z" finished-at="2018-02-21T14:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="captureStatus" is-config="true" duration-ms="0" started-at="2018-02-21T14:28:56Z" finished-at="2018-02-21T14:28:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=signInSuccessful status=SUCCESS method=LoginTestSuite.signInSuccessful()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203] output={null}]]]>
+                <![CDATA[[TestResult name=signInSuccessful status=SUCCESS method=LoginTestSuite.signInSuccessful()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureStatus -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="tearDown" is-config="true" duration-ms="689" started-at="2018-02-21T13:40:19Z" finished-at="2018-02-21T13:40:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@c038203]" name="cleanUp" is-config="true" duration-ms="429" started-at="2018-02-21T13:40:19Z" finished-at="2018-02-21T13:40:20Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite@18be83e4]" name="cleanUp" is-config="true" duration-ms="476" started-at="2018-02-21T14:28:56Z" finished-at="2018-02-21T14:28:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
