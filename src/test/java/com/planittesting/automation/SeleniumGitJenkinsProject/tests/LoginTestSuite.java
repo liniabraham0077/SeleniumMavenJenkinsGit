@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.planittesting.automation.SeleniumGitJenkinsProject.pages.HomePage;
 import com.planittesting.automation.SeleniumGitJenkinsProject.pages.LoginPage;
 import com.planittesting.automation.SeleniumGitJenkinsProject.pages.MyAccountPage;
+import com.planittesting.automation.SeleniumGitJenkinsProject.steps.BaseTestSuite;
 
 public class LoginTestSuite extends BaseTestSuite {
 

@@ -2,6 +2,7 @@ package com.planittesting.automation.SeleniumGitJenkinsProject.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
 
 public abstract class BasePage {
 	
@@ -11,7 +12,6 @@ public abstract class BasePage {
 		this.driver = driver;
 	}
 	
-
 	public LoginPage clickSignInButton() {
 		 driver.findElement(By.className("login")).click();
 		 return new LoginPage(driver);

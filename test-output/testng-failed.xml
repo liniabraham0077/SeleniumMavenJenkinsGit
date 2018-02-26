@@ -3,22 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite"/>
+      <class name="com.planittesting.automation.SeleniumGitJenkinsProject.runner.RunCukeTests"/>
     </classes>
   </test> <!-- Default test -->
   <test name="Default test(failed)">
     <classes>
-      <class name="com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite">
+      <class name="com.planittesting.automation.SeleniumGitJenkinsProject.runner.RunCukeTests">
         <methods>
-          <include name="tearDown"/>
-          <include name="captureStatus"/>
-          <include name="setup"/>
-          <include name="signInFailure"/>
-          <include name="cleanUp"/>
-          <include name="testSetUp"/>
-          <include name="testSteup"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.planittesting.automation.SeleniumGitJenkinsProject.tests.LoginTestSuite -->
+      </class> <!-- com.planittesting.automation.SeleniumGitJenkinsProject.runner.RunCukeTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

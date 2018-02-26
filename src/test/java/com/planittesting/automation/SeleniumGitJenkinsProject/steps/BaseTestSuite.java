@@ -1,4 +1,4 @@
-package com.planittesting.automation.SeleniumGitJenkinsProject.tests;
+package com.planittesting.automation.SeleniumGitJenkinsProject.steps;
 
 import java.io.File;
 import java.lang.reflect.Method;
@@ -24,6 +24,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+import cucumber.api.java.Before;
+
 public abstract class BaseTestSuite {
 
 	protected static WebDriver driver;
@@ -35,34 +37,37 @@ public abstract class BaseTestSuite {
 	@BeforeClass
 	public static void setup(String browser, String version, String platform) throws MalformedURLException {
 		if (browser.equals("chrome")) {
-
-			DesiredCapabilities capability = new DesiredCapabilities();
-			capability.setCapability("platform", platform);
-			capability.setCapability("browserName", browser);
-			capability.setCapability("browserVersion", version);
-			capability.setCapability("project", "P1");
-			capability.setCapability("build", "1.0");
-
-			driver = new RemoteWebDriver(new URL("http://192.168.56.1:4548/wd/hub"), capability);
-		}
-		else if (browser.equals("firefox")) {
-
-			DesiredCapabilities capability = new DesiredCapabilities();
-			capability.setCapability("platform", platform);
-			capability.setCapability("browserName", browser);
-			capability.setCapability("browserVersion", version);
-			capability.setCapability("project", "P1");
-			capability.setCapability("build", "1.0");
-			capability.setCapability("marionette", true);
-
-			driver = new RemoteWebDriver(new URL("http://192.168.56.1:4549/wd/hub"), capability);
+			
+			driver = new ChromeDriver();
 		}
 
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//			DesiredCapabilities capability = new DesiredCapabilities();
+//			capability.setCapability("platform", platform);
+//			capability.setCapability("browserName", browser);
+//			capability.setCapability("browserVersion", version);
+//			capability.setCapability("project", "P1");
+//			capability.setCapability("build", "1.0");
+//
+//			driver = new RemoteWebDriver(new URL("http://192.168.56.1:4548/wd/hub"), capability);
+		}
+//		else if (browser.equals("firefox")) {
+//
+//			DesiredCapabilities capability = new DesiredCapabilities();
+//			capability.setCapability("platform", platform);
+//			capability.setCapability("browserName", browser);
+//			capability.setCapability("browserVersion", version);
+//			capability.setCapability("project", "P1");
+//			capability.setCapability("build", "1.0");
+//			capability.setCapability("marionette", true);
+//
+//			driver = new RemoteWebDriver(new URL("http://192.168.56.1:4549/wd/hub"), capability);
+//		}
+//
+//		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//
+//	}
 
-	}
-
-	@BeforeTest
+	@Before
 	public void testSetUp() {
 
 		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/AutomationReport.html");
